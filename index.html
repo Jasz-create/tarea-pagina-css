@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tienda de ropa online con las últimas tendencias de moda">
+    <title>ModaTrend - Productos Destacados</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="navbar">
+            <div class="logo">Moda<span>Trend</span></div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#"><i class="fas fa-home"></i> Inicio</a></li>
+                <li><a href="#"><i class="fas fa-tshirt"></i> Productos</a></li>
+                <li><a href="#"><i class="fas fa-info-circle"></i> Contacto</a></li>
+            </ul>
+            <div class="cart">
+                <a href="#"><i class="fas fa-shopping-cart"></i> <span class="cart-counter">0</span></a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Colección Primavera-Verano 2025</h1>
+            <p>Descubre las últimas tendencias en moda</p>
+        </section>
+
+        <section class="featured-products">
+            <h2 class="section-title">Productos Destacados</h2>
+            <div class="products-grid">
+                <!-- Producto 1 -->
+                <article class="product-card">
+                    <div class="product-badge">¡Nuevo!</div>
+                    <img src="camisa.jpg" alt="Camisa elegante" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-title">Camisa Oxford</h3>
+                        <p class="product-description">100% algodón premium, disponible en 6 colores</p>
+                        <div class="price-container">
+                            <span class="current-price">$49.99</span>
+                            <span class="old-price">$59.99</span>
+                        </div>
+                        <button class="cta-button"><i class="fas fa-shopping-bag"></i> Añadir al carrito</button>
+                    </div>
+                </article>
+
+                <!-- Producto 2 -->
+                <article class="product-card">
+                    <div class="product-badge">-25%</div>
+                    <img src="vestido.jpg" alt="Vestido veraniego" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-title">Vestido Floral</h3>
+                        <p class="product-description">Tejido transpirable con estampado exclusivo</p>
+                        <div class="price-container">
+                            <span class="current-price">$65.99</span>
+                        </div>
+                        <button class="cta-button"><i class="fas fa-shopping-bag"></i> Añadir al carrito</button>
+                    </div>
+                </article>
+
+                <!-- Producto 3 -->
+                <article class="product-card">
+                    <img src="jeans.jpg" alt="Jeans ajustados" class="product-image">
+                    <div class="product-info">
+                        <h3 class="product-title">Jeans Slim Fit</h3>
+                        <p class="product-description">Elástico con tecnología antiarrugas</p>
+                        <div class="price-container">
+                            <span class="current-price">$59.99</span>
+                        </div>
+                        <button class="cta-button"><i class="fas fa-shopping-bag"></i> Añadir al carrito</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Contacto</h4>
+                <p>contacto@modatrend.com</p>
+                <p>+34 912 345 678</p>
+            </div>
+            <div class="footer-section">
+                <h4>Enlaces Rápidos</h4>
+                <ul>
+                    <li><a href="#">Política de devoluciones</a></li>
+                    <li><a href="#">Guía de tallas</a></li>
+                    <li><a href="#">Blog de moda</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Síguenos</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 ModaTrend - Todos los derechos reservados</p>
+            <p>Desarrollado con <i class="fas fa-heart"></i> por tu agencia digital</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
